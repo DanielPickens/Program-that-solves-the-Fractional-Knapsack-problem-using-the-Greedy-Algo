@@ -1,15 +1,5 @@
 def fractional_knapsack(value, weight, capacity):
-    ##"Return maximum value of items and their fractional amounts.
- 
-    (max_value, fractions) is returned where max_value is the maximum value of
-    items with total weight not more than capacity.
-    fractions is a list where fractions[i] is the fraction that should be taken
-    of item i, where 0 <= i < total number of items.
- 
-    value[i] is the value of item i and weight[i] is the weight of item i
-    for 0 <= i < n where n is the number of items.
- 
-    capacity is the maximum weight.
+    #
     ####
     # index = [0, 1, 2, ..., n - 1] for n items
     index = list(range(len(value)))
